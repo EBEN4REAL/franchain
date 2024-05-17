@@ -7,9 +7,24 @@ module.exports = {
 			xxs: { max: '370px' },
 		},
 		colors: {
-			background: '#E388AB',
+			"theme-gray": "#282828"
 		},
-		extend: {},
+		extend: {
+			fontFamily: {
+				sans: ['DM Sans', 'sans-serif'],
+			},
+			fontSize: {
+				'40px': '40px',
+				"22px": "22px"
+			},
+			lineHeight: {
+				'52.08px': '52.08px',
+				"28.64px": "28.64px",
+				"18.23px": "18.23px",
+				"23.44px": "23.44px",
+				"20.83px": "20.83px"
+			},
+		},
 	},
 	plugins: [],
 };

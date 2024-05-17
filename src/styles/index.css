@@ -1,6 +1,7 @@
 /* My own font */
 /* u can delete it */
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Fuggles&family=Pixelify+Sans:wght@400;500;600;700&family=Play:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -10,9 +11,19 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: "DM Sans", sans-serif;
 }
 
-/* delete it */
-h1 {
-	font-family: 'Pixelify Sans', cursive;
+.text-white 
+{
+	color: white;
 }
+
+.bg-banner-gradient {
+	background: linear-gradient(
+	  to bottom right, 
+	  rgba(223, 234, 240, 1), 
+	  rgba(213, 228, 234, 1), 
+	  rgba(244, 231, 244, 1)
+	);
+  }

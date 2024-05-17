@@ -1,7 +1,6 @@
 
 
 import React from 'react';
-import AuthContainer from '../components/AuthContainer';
 import "./home.css"
 import Logo from '@assets/img/logo.png';
 import BannerPhoto from '@assets/img/banner-photo.png';
